@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Get Your $750 Walmart Gift Code</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue: #4DBDF5;
+      --blue-dark: #1fa8e8;
+      --blue-light: #e0f5ff;
+      --dark: #1A1A1A;
+      --mid: #4A4A4A;
+      --soft: #767676;
+      --border: #E8E8E8;
+      --bg: #F7F7F7;
+      --white: #FFFFFF;
+      --radius: 14px;
+      --shadow: 0 2px 16px rgba(0,0,0,0.08);
+    }
+
+    body {
+      font-family: 'Nunito Sans', sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    /* ── Top Banner (NOT sticky — static in flow) ── */
+    .top-banner {
+      background: var(--blue);
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.3px;
+      text-align: center;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      width: 100%;
+    }
+
+    .top-banner .banner-icon { font-size: 15px; }
+
+    /* Outer wrapper so banner + page stack vertically */
+    .wrapper {
+      width: 100%;
+      max-width: 430px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .page {
+      background: var(--white);
+      flex: 1;
+      padding: 0 20px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    /* ── Logo area ── */
+    .logo-area {
+      padding-top: 16px;
+    }
+
+    .logo-area img {
+      height: 44px;
+      width: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    /* ── Badge (solid filled) ── */
+    .badge {
+      display: inline-block;
+      background: var(--blue);
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      padding: 5px 13px;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-top: 6px;
+    }
+
+    .hero h1 {
+      font-family: 'Nunito', sans-serif;
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 1.2;
+      color: var(--dark);
+    }
+
+    .hero h1 .amount {
+      color: var(--blue-dark);
+      text-decoration: underline;
+      text-decoration-color: var(--blue);
+      text-decoration-thickness: 3px;
+      text-underline-offset: 3px;
+    }
+
+    /* ── Quick Start Card ── */
+    .card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .card-title {
+      font-family: 'Nunito', sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--dark);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .checklist {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--mid);
+    }
+
+    .check-icon {
+      width: 22px;
+      height: 22px;
+      background: var(--blue);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .check-icon svg { width: 12px; height: 12px; }
+
+    /* ── CTA Button ── */
+    .cta-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .cta-btn {
+      width: 100%;
+      background: var(--blue);
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-size: 17px;
+      font-weight: 900;
+      border: none;
+      border-radius: 50px;
+      padding: 18px 24px;
+      cursor: pointer;
+      box-shadow: 0 4px 18px rgba(77,189,245,0.45);
+      letter-spacing: 0.2px;
+      transition: background 0.18s, box-shadow 0.18s;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+    }
+
+    .cta-btn:hover {
+      background: var(--blue-dark);
+      box-shadow: 0 6px 22px rgba(77,189,245,0.55);
+    }
+
+    .cta-btn:active {
+      box-shadow: 0 2px 10px rgba(77,189,245,0.3);
+    }
+
+    @keyframes btnBounce {
+      0%   { transform: translateY(0); }
+      18%  { transform: translateY(-8px); }
+      34%  { transform: translateY(0); }
+      50%  { transform: translateY(-4px); }
+      60%  { transform: translateY(0); }
+      100% { transform: translateY(0); }
+    }
+
+    .cta-btn.bouncing {
+      animation: btnBounce 0.75s ease;
+    }
+
+    .cta-meta {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .cta-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--soft);
+    }
+
+    .cta-meta-item svg { width: 14px; height: 14px; opacity: 0.6; }
+
+    /* ── Progress Card ── */
+    .progress-card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .progress-label { font-size: 13px; font-weight: 700; color: var(--dark); }
+    .progress-count { font-size: 13px; font-weight: 700; color: var(--soft); }
+
+    .progress-bar-bg {
+      background: #EFEFEF;
+      border-radius: 10px;
+      height: 8px;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, var(--blue-dark), var(--blue));
+      border-radius: 10px;
+      animation: fillBar 1.2s cubic-bezier(0.4,0,0.2,1) 0.4s forwards;
+    }
+
+    @keyframes fillBar {
+      from { width: 0%; }
+      to   { width: 20%; }
+    }
+
+    .progress-hint { font-size: 12px; color: var(--soft); line-height: 1.5; }
+
+    /* ── FAQ ── */
+    .faq-section { display: flex; flex-direction: column; gap: 0; }
+
+    .faq-title {
+      font-family: 'Nunito', sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--dark);
+      margin-bottom: 14px;
+    }
+
+    .faq-item {
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 8px;
+      background: var(--white);
+      overflow: hidden;
+      transition: box-shadow 0.18s;
+    }
+
+    .faq-item:hover { box-shadow: var(--shadow); }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 16px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      text-align: left;
+      gap: 12px;
+    }
+
+    .faq-question span { font-size: 14px; font-weight: 700; color: var(--dark); line-height: 1.4; }
+
+    .faq-chevron {
+      width: 22px; height: 22px; flex-shrink: 0;
+      transition: transform 0.25s ease;
+      color: var(--soft);
+    }
+
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.2s ease;
+      padding: 0 18px;
+    }
+
+    .faq-item.open .faq-answer { max-height: 200px; padding: 0 18px 16px; }
+    .faq-answer p { font-size: 13px; color: var(--soft); line-height: 1.6; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      font-size: 11px;
+      color: #AAAAAA;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Fade-in ── */
+    .page > * { animation: fadeUp 0.4s ease both; }
+    .page > *:nth-child(1) { animation-delay: 0.05s; }
+    .page > *:nth-child(2) { animation-delay: 0.1s; }
+    .page > *:nth-child(3) { animation-delay: 0.15s; }
+    .page > *:nth-child(4) { animation-delay: 0.2s; }
+    .page > *:nth-child(5) { animation-delay: 0.25s; }
+    .page > *:nth-child(6) { animation-delay: 0.3s; }
+    .page > *:nth-child(7) { animation-delay: 0.35s; }
+    .page > *:nth-child(8) { animation-delay: 0.4s; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Popup Notification (bottom-right, smaller) ── */
+    .popup-notification {
+      position: fixed;
+      bottom: 18px;
+      right: 16px;
+      width: 230px;
+      background: var(--white);
+      border-radius: 13px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+      border: 1px solid var(--border);
+      padding: 11px 13px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 200;
+      opacity: 0;
+      transform: translateY(20px) scale(0.95);
+      transition: transform 0.45s cubic-bezier(0.34,1.4,0.64,1), opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .popup-notification.show {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .popup-emoji { font-size: 22px; line-height: 1; flex-shrink: 0; }
+
+    .popup-text { flex: 1; min-width: 0; }
+
+    .popup-text strong {
+      font-family: 'Nunito', sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--dark);
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .popup-detail {
+      font-size: 11px;
+      color: var(--soft);
+      margin-top: 1px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .popup-indicator {
+      width: 7px; height: 7px;
+      background: var(--blue);
+      border-radius: 50%;
+      flex-shrink: 0;
+      animation: pulseBlue 1.6s infinite;
+    }
+
+    @keyframes pulseBlue {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.6); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- Top Banner (static, scrolls away) -->
+    <div class="top-banner">
+      <span class="banner-icon"></span>
+      4,200+ People Already Claimed
+    </div>
+
+    <div class="page">
+
+      <!-- Logo -->
+      <div class="logo-area">
+        <img src="logo.png" alt="Logo" />
+      </div>
+
+      <!-- Hero -->
+      <div class="hero">
+        <span class="badge">Limited Time Offer</span>
+        <h1>Get Your <span class="amount">$750</span> Walmart Gift Code</h1>
+      </div>
+
+      <!-- Quick Start Card -->
+      <div class="card">
+        <div class="card-title">Quick Start Guide <span class="arrow">→</span></div>
+        <ul class="checklist">
+          <li>
+            <div class="check-icon">
+              <svg viewBox="0 0 12 12" fill="none">
+                <path d="M2 6L5 9L10 3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            Complete 4-5 simple deals
+          </li>
+          <li>
+            <div class="check-icon">
+              <svg viewBox="0 0 12 12" fill="none">
+                <path d="M2 6L5 9L10 3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            Provide a real email address
+          </li>
+          <li>
+            <div class="check-icon">
+              <svg viewBox="0 0 12 12" fill="none">
+                <path d="M2 6L5 9L10 3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            Enjoy your discount!
+          </li>
+        </ul>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-wrap">
+        <a class="cta-btn" id="ctaBtn" href="https://taprkr.com/r/eyJ0Ijoid2FsbWFydCIsInRpZCI6ImIyZWRhMDlkZjViNDUwOWU5NDYwIiwidHMiOjE3NzgwOTAzNDYxMjR9" target="_blank" rel="noopener">Claim My Reward</a>
+        <div class="cta-meta">
+          <div class="cta-meta-item">
+            <svg viewBox="0 0 16 16" fill="none">
+              <rect x="1" y="3" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M1 7h14" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            Use on Any Purchase
+          </div>
+          <div class="cta-meta-item">
+            <svg viewBox="0 0 16 16" fill="none">
+              <path d="M8 2v4l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            Instant Delivery
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress -->
+      <div class="progress-card">
+        <div class="progress-header">
+          <span class="progress-label">Deal Completion</span>
+          <span class="progress-count">1 of 5</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill"></div>
+        </div>
+        <p class="progress-hint">Complete 4 more deals to unlock your $750 Walmart gift code.</p>
+      </div>
+
+      <!-- FAQ -->
+      <div class="faq-section">
+        <div class="faq-title">Frequently Asked Questions</div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>How do I claim my reward?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Simply complete 4-5 partner deals from our sponsors, provide your email address, and your $750 Walmart gift code will be delivered to you digitally.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Is this offer really real?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! This is a legitimate promotional offer. Simply complete the required steps to receive your gift card reward.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>How long does it take to receive my gift code?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Delivery is instant! Once all deals are verified, your gift code is emailed within seconds.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Can I use the gift code for any Walmart's purchase?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! Your $750 gift code can be used on any item at any participating Walmart location nationwide.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>© 2026 Walmart Gift Card Promotion. All rights reserved.</footer>
+
+    </div><!-- /.page -->
+  </div><!-- /.wrapper -->
+
+  <!-- Popup -->
+  <div class="popup-notification" id="popup">
+    <div class="popup-emoji">🎁</div>
+    <div class="popup-text">
+      <strong id="popupName">Elizabeth Taylor</strong>
+      <div class="popup-detail" id="popupDetail">claimed a $100 gift code · Just now</div>
+    </div>
+    <div class="popup-indicator"></div>
+  </div>
+
+  <script>
+    /* ── FAQ toggle ── */
+    function toggleFAQ(btn) {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    /* ── CTA Bounce (every 2.5s) ── */
+    const ctaBtn = document.getElementById('ctaBtn');
+
+    function triggerBounce() {
+      ctaBtn.classList.remove('bouncing');
+      void ctaBtn.offsetWidth;
+      ctaBtn.classList.add('bouncing');
+      ctaBtn.addEventListener('animationend', () => ctaBtn.classList.remove('bouncing'), { once: true });
+    }
+
+    triggerBounce(); // immediate on load
+    setInterval(triggerBounce, 2500);
+
+    /* ── Popup Notifications (every 3.5s) ── */
+    const names = [
+      'James Carter', 'Sophia Lin', 'Michael Brown', 'Amelia Johnson',
+      'Liam Davis', 'Olivia Smith', 'Noah Wilson', 'Emma Martinez',
+      'William Lee', 'Ava Thompson', 'Benjamin Harris', 'Isabella Clark',
+      'Lucas Lewis', 'Mia Robinson', 'Henry Walker', 'Charlotte Hall',
+      'Ethan Scott', 'Harper Adams', 'Jack Turner', 'Aria Mitchell'
+    ];
+    const amounts = ['$100', '$300', '$500', '$750'];
+    const timeLabels = ['Just now', 'Just now', 'Just now', '1 min ago'];
+
+    const popup = document.getElementById('popup');
+    const popupName = document.getElementById('popupName');
+    const popupDetail = document.getElementById('popupDetail');
+
+    let popupVisible = false;
+
+    function showPopup() {
+      const name = names[Math.floor(Math.random() * names.length)];
+      const amount = amounts[Math.floor(Math.random() * amounts.length)];
+      const time = timeLabels[Math.floor(Math.random() * timeLabels.length)];
+
+      popupName.textContent = name;
+      popupDetail.textContent = `claimed a ${amount} gift code · ${time}`;
+
+      popup.classList.add('show');
+
+      // Hide after 2.5s, then show next after 3.5s interval from first show
+      setTimeout(() => {
+        popup.classList.remove('show');
+      }, 2500);
+    }
+
+    // First popup at 2 seconds, then every 3.5 seconds
+    setTimeout(() => {
+      showPopup();
+      setInterval(showPopup, 5000);
+    }, 2000);
+  </script>
+</body>
+</html>
